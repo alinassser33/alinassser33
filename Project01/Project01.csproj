@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2DE1242F-6334-46FC-995D-A9D5650F7E48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project01</RootNamespace>
+    <AssemblyName>Project01</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addCourse.Designer.cs">
+      <DependentUpon>addCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addForm.Designer.cs">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseEdit.Designer.cs">
+      <DependentUpon>CourseEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletStu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletStu.Designer.cs">
+      <DependentUpon>DeletStu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="regesterationAppDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>regesterationAppDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="regesterationAppDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>regesterationAppDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="regesterationAppDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>regesterationAppDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCourseForm.Designer.cs">
+      <DependentUpon>ViewCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm.Designer.cs">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addCourse.resx">
+      <DependentUpon>addCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addForm.resx">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseEdit.resx">
+      <DependentUpon>CourseEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletStu.resx">
+      <DependentUpon>DeletStu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ViewCourseForm.resx">
+      <DependentUpon>ViewCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm.resx">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="regesterationAppDataSet.xsc">
+      <DependentUpon>regesterationAppDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="regesterationAppDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>regesterationAppDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="regesterationAppDataSet.xss">
+      <DependentUpon>regesterationAppDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="regesterationAppDataSet1.xsc">
+      <DependentUpon>regesterationAppDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="regesterationAppDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>regesterationAppDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="regesterationAppDataSet1.xss">
+      <DependentUpon>regesterationAppDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="regesterationAppDataSet2.xsc">
+      <DependentUpon>regesterationAppDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="regesterationAppDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>regesterationAppDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="regesterationAppDataSet2.xss">
+      <DependentUpon>regesterationAppDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="regesterationApp.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\PMU logo.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

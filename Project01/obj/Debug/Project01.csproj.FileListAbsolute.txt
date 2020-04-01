@@ -1,0 +1,17 @@
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\bin\Debug\Project01.exe.config
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\bin\Debug\Project01.exe
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\bin\Debug\Project01.pdb
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.csprojAssemblyReference.cache
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.Form1.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.Properties.Resources.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.csproj.GenerateResource.cache
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.exe
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.pdb
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.addForm.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.addCourse.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.ViewForm.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.DeletStu.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.CourseEdit.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\obj\Debug\Project01.ViewCourseForm.resources
+C:\Users\Gamer\Desktop\PMU\inter_programing\Project01\Project01\bin\Debug\regesterationApp.accdb
